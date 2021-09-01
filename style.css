@@ -66,7 +66,7 @@ body{
  outline-color: #1e9ba3;
 }
 
-.form-box .error-text {
+.form-box.error-text {
     color: #ca3434;
     visibility: hidden;
 }
@@ -91,14 +91,14 @@ body{
     color: lightgray
 }
 
-.form-box .form-error input{
+.form-box.form-error input{
     border-bottom: 2px solid red;
 }
 
-.form-box .form-error .error-text {
+.form-box.form-error .error-text {
     visibility: visible;
 }
 
-.form-box .form-success input{
+.form-box.form-success input{
     border-bottom: 2px solid #1e9ba3;
 }

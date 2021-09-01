@@ -7,7 +7,7 @@ let timeout= null;
 // Escribo un bucle para iterar, para poder ir agregando eventlisteners.
 
 // Seleccionamos con un querySelectorAll cada form box que existen en el form y por cada uno de ellos  tendremos un box y haremos lo siguiente en la funcion: 
-document.querySelectorAll(".form-box").forEach((box)=>{
+document.querySelectorAll('.form-box').forEach((box)=>{
     const boxInput = box.querySelector("input");
 
 
@@ -23,7 +23,7 @@ boxInput.addEventListener("keydown", (e)=>{
 });
 
 validation = ( box, boxInput) => {
-    if (boxInput.name=='nickName') {
+    if (boxInput.name == 'nickName') {
         console.log('validacion para nombre');
         if (boxInput.value == '') {
             showError (true, box);
