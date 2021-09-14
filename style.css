@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    font-family:sans-serif;
+body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .registry-section{
@@ -25,34 +27,30 @@ body{
     padding: 20px;
 }
 
-.form-container{
+.form-container {
     width: 600px;
     max-width: 100%;
-    background: #a6c7cade ;
+    background: #a6c7cade;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 5px 16px 0px rgba(50,50,50, 0.75);
-}
-
-.form-header {
+    box-shadow: 0px 5px 16px 0px rgba(50, 50, 50, 0.75);
+  }
+  .form-header {
     background: #1e9ba3;
-    padding:20 px 40 px;
+    padding: 20px 40px;
     text-align: center;
-    color:#fff;
-    border-bottom:5px solid #fff;
-}
-
-.form{
+    color: #fff;
+    border-bottom: 5px solid #fff;
+  }
+  .form {
     padding: 25px 40px;
-}
-
-.form-box{
+  }
+  .form-box {
     padding-bottom: 20px;
     margin-bottom: 10px;
-}
-
-.form-box input{
-    display:block;
+  }
+  .form-box input {
+    display: block;
     width: 100%;
     font-family: inherit;
     border: 1px solid #ccc;
@@ -60,21 +58,18 @@ body{
     padding: 15px;
     font-size: 15px;
     margin-top: 10px;
-}
-
-.form-box input:focus {
- outline-color: #1e9ba3;
-}
-
-.form-box.error-text {
+  }
+  .form-box input:focus {
+    outline-color: #1e9ba3;
+  }
+  .form-box .error-text {
     color: #ca3434;
     visibility: hidden;
-}
-
-.form button {
+  }
+  .form button {
     display: block;
     width: 100%;
-    padding:15px;
+    padding: 15px;
     background: #1e9ba3;
     border: 1px solid #1e9ba3;
     border-radius: 5px;
@@ -82,23 +77,19 @@ body{
     font-weight: bold;
     font-size: 15px;
     font-family: inherit;
-    text-transform:uppercase;
-}
-
-.form button:disabled {
+    text-transform: uppercase;
+  }
+  .form button:disabled {
     background: #82a0a2;
     border: 1px solid #82a0a2;
-    color: lightgray
-}
-
-.form-box.form-error input {
+    color: lightgray;
+  }
+  .form-box.form-error input {
     border-bottom: 2px solid red;
-}
-
-.form-box.form-error .error-text {
+  }
+  .form-box.form-error .error-text {
     visibility: visible;
-}
-
-.form-box.form-success input {
+  }
+  .form-box.form-success input {
     border-bottom: 2px solid #1e9ba3;
-}
+  }
